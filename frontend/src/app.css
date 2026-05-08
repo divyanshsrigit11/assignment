@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', ui-sans-serif, system-ui;
+}
+
+/* Optional: Smooth transitions for your sidebar */
+@layer base {
+  html {
+    -webkit-tap-highlight-color: transparent;
+  }
+}
